@@ -1,9 +1,38 @@
-header
-{
-    background-color: #4a919e;
+header{
+    background-color: #046B99;
+    display: flex;
 }
 
-body
-{
-    background-color: #a2706d;
+a{
+    color: white;
+    text-decoration: none;
+    margin-inline-start: 3%;
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10%;
+}
+
+#menu{
+    padding-block: 6%;
+    padding-inline: 5%;
+    background-color: #046B99;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button{
+    margin: 1%;
+}
+
+button{
+    width: 100%;
 }
